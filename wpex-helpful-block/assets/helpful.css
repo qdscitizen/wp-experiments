@@ -1,0 +1,22 @@
+.wpex-helpful {
+  margin-top: 2em;
+  padding: 1em 1.25em;
+  border: 1px solid #e2e4e7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: .75em;
+  flex-wrap: wrap;
+}
+.wpex-helpful__label { font-weight: 600; }
+.wpex-helpful__btn {
+  cursor: pointer;
+  padding: .45em .9em;
+  border: 1px solid #2271b1;
+  border-radius: 8px;
+  background: #fff;
+  font-size: .95em;
+}
+.wpex-helpful__btn:hover { background: #f0f6fc; }
+.wpex-helpful__btn:disabled { opacity: .55; cursor: default; }
+.wpex-helpful__btn.is-voted { border-color: #00a32a; background: #edfaef; }

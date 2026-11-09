@@ -1,0 +1,12 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpex/helpful",
+  "version": "0.1.0",
+  "title": "Helpful Block",
+  "category": "widgets",
+  "description": "Was this article helpful? Voting block, auto-appended to every post via Block Hooks.",
+  "textdomain": "wpex-helpful",
+  "supports": { "inserter": false },
+  "blockHooks": { "core/post-content": "lastChild" }
+}
